@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <Box>
             <HeroBanner />
+
             <SearchExercise
                 setExercises={setExercises}
                 bodyPart={bodyPart}
