@@ -9,7 +9,7 @@ const Home = () => {
     const [exercises, setExercises] = useState([]);
     return (
         <Box>
-            <HeroBanner />
+            {/* <HeroBanner /> */}
 
             <SearchExercise
                 setExercises={setExercises}

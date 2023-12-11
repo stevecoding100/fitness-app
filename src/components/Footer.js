@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Logo from "../assets/images/Logo-1.png";
+import Logo from "../assets/images/Logo.png";
 
 const Footer = () => {
     return (
@@ -15,7 +15,7 @@ const Footer = () => {
                 <img
                     src={Logo}
                     alt="logo"
-                    style={{ width: "200px", height: "41px", xs: "20px" }}
+                    style={{ width: "150px", height: "auto", xs: "20px" }}
                     mt="41px"
                 />
             </Stack>
@@ -25,6 +25,7 @@ const Footer = () => {
                 mt="41px"
                 textAlign="center"
                 pb="40px"
+                color="#2B2D42"
             >
                 Start Your Fitness Journey 💪 by Steve De La Rosa
             </Typography>

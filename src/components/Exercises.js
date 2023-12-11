@@ -55,7 +55,14 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             mt="50px"
             p="20px"
         >
-            <Typography variant="h3" mb="46px">
+            <Typography
+                variant="h3"
+                mb="46px"
+                color="#2B2D42"
+                sx={{
+                    fontSize: { xs: "30px" },
+                }}
+            >
                 Showing Results
             </Typography>
             <Stack
